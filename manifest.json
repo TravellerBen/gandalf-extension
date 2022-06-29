@@ -1,0 +1,12 @@
+{
+    "name": "Gandalf Saxman hyperlink",
+    "description": "All hrefs in an <a> tag are replaced with a link to a gandalf saxman video",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches":["*://*/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
